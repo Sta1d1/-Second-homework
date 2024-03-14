@@ -1,4 +1,4 @@
-from Figure import Figure
+from src.Figure import Figure
 
 class Rectangle(Figure):
     def __init__(self, side_a, side_b):

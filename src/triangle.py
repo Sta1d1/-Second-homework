@@ -1,4 +1,4 @@
-from Figure import Figure
+from src.Figure import Figure
 
 class Triangle(Figure):
     def __new__(cls, *args, **kwargs):
@@ -24,6 +24,3 @@ class Triangle(Figure):
     @property
     def get_perimeter(self):
         return self.side1 + self.side2 + self.side3
-
-a = Triangle(10,4,5)
-print(a.get_area)

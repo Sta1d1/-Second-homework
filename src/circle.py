@@ -1,4 +1,4 @@
-from Figure import Figure
+from src.Figure import Figure
 import math
 
 class Circle(Figure):
@@ -10,8 +10,9 @@ class Circle(Figure):
     
     @property
     def get_area(self):
-        return (self.radius * math.pi) ** 2
+        return (self.radius ** 2) * math.pi
     
     @property
     def get_perimeter(self):
         return 2 * self.radius * math.pi
+
